@@ -41,7 +41,7 @@ class Packaging extends Command
         $this->info('Exporting started...');
         
         $from = base_path();
-        $to = base_path('vendor/dwij/laraadmin/src/Installs');
+        $to = base_path('vendor/code4tz/laraadmin/src/Installs');
         
         $this->info('from: '.$from." to: ".$to);
         
